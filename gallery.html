@@ -5,30 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
+    <link rel="stylesheet" href="./css/html5reset.css">
+    <link rel="stylesheet" href="./css/css.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href = "index.html">Biography</a></li>
-                <li><a href = "stats.html">Stats</a></li>
-                <li><a href = "trophies.html">Trophies</a></li>
-                <li><a href = "gallery.html">Gallery</a></li>
+            <ul id = "nav_links" class="nav_links">
+                <li class="nav_item"></li><a href = "index.html">Biography</a></li>
+                <li class="nav_item"></li><a href = "stats.html">Stats</a></li>
+                <li class="nav_item"></li><a href = "trophies.html">Trophies</a></li>
+                <li class="nav_item"></li><a href = "gallery.html">Gallery</a></li>
             </ul>
         </nav>
-
-        <h1>Gallery</h1>
-
     </header>
-    <main>
-        <img src="images/six_ballon d'ors.jpg"/>
-        <img src="images/messi_clasico_goal.jpg">
-        <img src="images/messi_2015_ucl.jpg">
-        <img src="images/messi_copa_america.jpg">
-        <img src="images/messi_ronaldinho.jpg">
-        <img src="images/messi_suarez_neymar.jpg">
-        <img src="images/messi_2015.jpg">
-        <img src="images/messi_argentina.jpg">
-        <img src="images/messi_aimar.jpg">
+    <main class="container">
+        <h1 id = "gallery">Gallery</h1>
+        <div class = "gallery">
+            <img id="image1" src="images/six_ballon d'ors.jpg"/>
+            <p>hi I am oresti</p>
+            <img id="image2" src="images/messi_clasico_goal.jpg">
+            <img id="image3" src="images/messi_2015_ucl.jpg">
+            <img id="image4" src="images/messi_copa_america.jpg">
+            <img id="image5" src="images/messi_ronaldinho.jpg">
+            <img id="image6" src="images/messi_suarez_neymar.jpg">
+            <img id="image7" src="images/messi_2015.jpg">
+            <img id="image8" src="images/messi_argentina.jpg">
+            <img id="image9" src="images/messi_aimar.jpg">
+        </div>
     </main>
+    <footer>
+        <p>Oresti Dine &copy; 2021</p>
+    </footer>
+</body>
 </html>

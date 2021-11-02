@@ -5,22 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/html5reset.css">
-    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="./css/css.css">
     <title>Trophies</title>
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href = "index.html">Biography</a></li>
-                <li><a href = "stats.html">Stats</a></li>
-                <li><a href = "trophies.html">Trophies</a></li>
-                <li><a href = "gallery.html">Gallery</a></li>
+            <ul id = "nav_links" class="nav_links">
+                <li class="nav_item"></li><a href = "index.html">Biography</a></li>
+                <li class="nav_item"></li><a href = "stats.html">Stats</a></li>
+                <li class="nav_item"></li><a href = "trophies.html">Trophies</a></li>
+                <li class="nav_item"></li><a href = "gallery.html">Gallery</a></li>
             </ul>
         </nav>
 
-        <h1>Career Trophies Won</h1>
+        <h1 id = "trophies">Career Trophies Won</h1>
     </header>
+    <!-- <main class="container">
+      <div>
+        <h1 id = "skip" tabindex="0">Trophies</h1>
+        <p>Career Trophies Won:</p>
+        <a href="trophies.html" class="trophies"></a>
+      </div>
+
+    </main> -->
     <table>
         <thead>
           <tr>
@@ -92,4 +100,8 @@
             <td>2021 Copa America</td>
         </tr>
     </table>
+    <footer>
+      <p>Oresti Dine &copy; 2021</p>
+    </footer>
+</body>
 </html>
