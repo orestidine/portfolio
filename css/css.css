@@ -49,10 +49,18 @@ a.skip:focus{
   color: black;
   text-decoration-style: solid;
 }
+#contact_title{
+  color: red;
+  text-align: center;
+}
+.form{
+  text-align: center;
+  color: red
+}
 footer{
   display: block;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   bottom: 0;
   width: 100%;
   color: white;
@@ -60,8 +68,6 @@ footer{
 }
 
 /* STATS */
-
-
 td{
   text-align: center;
   border-top: 2px solid black;
