@@ -70,7 +70,7 @@ td{
     
 .colhead{
   color: #FFFFFF;
-  min-width: 125px;
+  min-width: 100px;
   padding: 10px;
   background-color: darkred;
   text-transform: uppercase;
@@ -107,7 +107,7 @@ table{
 .gallery > img{
   display: flex;
   height: auto;
-  width: 70vh;
+  width: 80vw;
 }
 p{
   font-family: Arial, Helvetica, sans-serif;
