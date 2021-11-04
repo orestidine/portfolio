@@ -22,9 +22,10 @@ header{
 }
 .nav_links a{
   color: red;
-  padding: 1em;
-  line-height: 2em;
+  padding: 2em;
+  line-height: 1em;
   text-decoration: solid;
+  font-size: 20px;
 }
 .nav_links a:focus{
   color:yellow;
@@ -70,7 +71,7 @@ td{
     
 .colhead{
   color: #FFFFFF;
-  min-width: 80px;
+  min-width: 70px;
   padding: 10px;
   background-color: darkred;
   text-transform: uppercase;
