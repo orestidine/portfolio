@@ -49,10 +49,9 @@ a.skip:focus{
   text-decoration-style: solid;
 }
 footer{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  position: static;
+  display: block;
+  text-align: center;
+  padding: 10px;
   bottom: 0;
   width: 100%;
   color: white;
