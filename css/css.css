@@ -77,7 +77,7 @@ td{
     
 .colhead{
   color: #FFFFFF;
-  min-width: 60px;
+  min-width: 50px;
   padding: 10px;
   background-color: darkred;
   text-transform: uppercase;
@@ -118,6 +118,8 @@ table{
 p{
   font-family: Arial, Helvetica, sans-serif;
   color:white;
+  padding: 5px;
+  margin: 15px;
 }
 td{
   font-family: Arial, Helvetica, sans-serif;
