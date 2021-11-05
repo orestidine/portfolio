@@ -21,7 +21,7 @@ header{
   flex-direction: row;
 }
 .nav_links a{
-  color: red;
+  color:red;
   padding: 24px;
   line-height: 1em;
   text-decoration: solid;
@@ -34,6 +34,11 @@ header{
   transition-property: all;
   transition-duration: 750ms;
   color: white;
+}
+li.nav_item.current{
+  text-decoration: underline wavy;
+  padding: 24px;
+  line-height: 1em;
 }
 a.skip{
   -webkit-transition: top 1s ease-out;
