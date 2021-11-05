@@ -24,7 +24,7 @@ header{
   color:red;
   padding: 24px;
   line-height: 1em;
-  text-decoration: solid;
+  /* text-decoration: solid; */
   font-size: 20px;
 }
 .nav_links a:focus{
@@ -37,7 +37,9 @@ header{
 }
 li.nav_item.current{
   text-decoration: overline solid;
-  padding: 24px;
+  border: 2px solid yellow;
+  padding: 5px;
+  margin: 3px;
 }
 a.skip{
   -webkit-transition: top 1s ease-out;
